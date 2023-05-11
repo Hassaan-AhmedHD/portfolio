@@ -345,6 +345,7 @@ footer {
   
 /*  */
 
+
 @media only screen and (max-width: 1000px) {
     .hamburger {
         display: block;
@@ -371,8 +372,23 @@ footer {
         flex-direction: column-reverse;
         background-color: #2b2c38;
     }
-
-    .logo {
-        display: none;
+    .modal{
+        width: 100vw;
+        margin: 0px;
+        padding: 0;
+        position:absolute;
+        top: 0px;
+        left: 0px;
     }
+    .images {
+        background-color: cadetblue;
+        width: 100vw;}
+        .pic {
+            height: 80vh;
+            width: 100vw;
+          }
+        
+  
 }
+
+
