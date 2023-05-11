@@ -98,4 +98,5 @@ store.addEventListener("click", () => {
 const closeBtn = document.querySelector("#modal-btn");
 closeBtn.addEventListener("click", () => {
   modal.style.display = "none";
+  
 });
