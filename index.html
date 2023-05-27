@@ -1,275 +1,459 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="src/styles.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/761e4c8e5c.js" crossorigin="anonymous"></script>
-    <title>Portfolio</title>
-    <style>
-   
-    </style>
-    <meta charset="UTF-8" />
-  </head>
-  <body>
-      <section class="hero">
-          <nav>
-              <div class="logo">
-              <a href="https://web.whatsapp.com/" class="svg"><svg xmlns="http://www.w3.org/2000/svg"fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-5.971 18l.844-3.081c-.52-.902-.794-1.925-.794-2.973.001-3.279 2.668-5.946 5.946-5.946 1.591.001 3.084.62 4.206 1.744 1.123 1.124 1.741 2.618 1.74 4.207-.001 3.279-2.669 5.946-5.946 5.946-.995 0-1.976-.25-2.844-.724l-3.152.827zm3.298-1.903c.838.497 1.638.796 2.696.796 2.724 0 4.943-2.217 4.944-4.942.001-2.731-2.208-4.945-4.94-4.946-2.726 0-4.943 2.217-4.944 4.942 0 1.112.326 1.946.873 2.817l-.499 1.824 1.87-.491zm5.694-2.732c-.037-.062-.136-.099-.285-.174-.149-.074-.879-.434-1.015-.483-.136-.05-.235-.074-.334.074-.099.149-.384.483-.47.583-.087.099-.173.112-.322.037-.149-.074-.627-.231-1.195-.737-.442-.394-.74-.881-.827-1.029-.087-.149-.009-.229.065-.303l.223-.26.149-.248c.05-.099.025-.186-.012-.26l-.458-1.103c-.121-.29-.243-.25-.334-.255l-.286-.007c-.099 0-.26.037-.396.186s-.52.508-.52 1.24c0 .731.532 1.438.607 1.537.074.099 1.048 1.6 2.538 2.243.354.153.631.245.847.313.356.113.68.097.936.059.285-.043.879-.359 1.003-.706.123-.348.123-.645.086-.707z"/></svg> <span class="phone-number">+923488512063</span></a>
-            </div>
-              <ul id="nav-list">
-                  <li><a href="#about-me">About me</a></li>
-                  <li><a href="#projects">Projects</a></li>
-                  <li><a href="#contact-me">Contact</a></li>
-              </ul>
-              <button class="hamburger" id="hamburger">
-                  <i class="fas fa-bars"></i>
-              </button>
-          </nav>
-          <div class="hero-area">
-            <div class="hero-text">
-                <h1>Hassaan Ahmed</h1>
-                <p>Web/Designer/Data Science</p>
-                <div class="button"><a href="#about-me">About me</a></div>
-            </div>
-            <div class="socials">
-                <div><a href="https://www.facebook.com/hd.hassaan" class="social">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
-                </a></div>
-                <div><a href="https://github.com/Hassaan-AhmedHD"  class="social">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="55" height="55" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-                </a></div>
-                <div><a href="https://www.linkedin.com/in/hassaan-ahmed-dar-hd"  class="social">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
-                </a></div>
-                <div><a href="https://www.behance.net/hassaanahmed12"  class="social">
-                  <svg  height="50px" width="50px"   fill="#ffffff" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-                  viewBox="0 0 512 512" xml:space="preserve">
-               <g>
-                 <path d="M344.1,244.5c-4.9-4.2-11-6.3-18.2-6.3c-7.8,0-13.9,2.2-18.3,6.7c-4.3,4.5-7,10.5-8.2,18.1h52.7
-                   C351.7,254.9,348.9,248.8,344.1,244.5z"/>
-                 <path d="M214.3,266.1c-3.8-1.7-9-2.6-15.8-2.7h-39v42.2H198c6.9,0,12.2-0.9,16-2.8c7-3.5,10.4-10,10.4-19.7
-                   C224.4,274.9,221,269.2,214.3,266.1z"/>
-                 <path d="M256,0C114.6,0,0,114.6,0,256s114.6,256,256,256s256-114.6,256-256S397.4,0,256,0z M291.6,182.3h67.8V202h-67.8
-                   L291.6,182.3L291.6,182.3z M250.7,310.6c-3,4.9-6.7,9.1-11.2,12.4c-5,3.9-11,6.5-17.9,8c-6.9,1.4-14.3,2.1-22.4,2.1H128V174.9h76.5
-                   c19.3,0.3,33,5.9,41,16.9c4.8,6.7,7.2,14.8,7.2,24.2c0,9.6-2.4,17.4-7.3,23.3c-2.7,3.3-6.8,6.3-12.1,9c8.1,3,14.2,7.6,18.3,14
-                   s6.2,14.1,6.2,23.2C257.8,294.7,255.4,303.1,250.7,310.6z M384,283.2h-85.2c0.5,11.7,4.5,20,12.2,24.7c4.7,2.9,10.3,4.4,16.9,4.4
-                   c6.9,0,12.6-1.8,17-5.4c2.4-1.9,4.5-4.6,6.3-8.1h31.2c-0.8,6.9-4.6,14-11.3,21.2c-10.5,11.4-25.1,17.1-44,17.1
-                   c-15.6,0-29.3-4.8-41.2-14.4c-11.9-9.6-17.9-25.2-17.9-46.8c0-20.3,5.4-35.8,16.1-46.6c10.8-10.8,24.7-16.2,41.8-16.2
-                   c10.2,0,19.4,1.8,27.5,5.5c8.2,3.6,14.9,9.4,20.2,17.3c4.8,6.9,7.9,15,9.3,24.2C383.8,265.4,384.1,273.1,384,283.2z"/>
-                 <path d="M214.8,233.3c4.3-2.6,6.4-7.3,6.4-13.9c0-7.4-2.8-12.2-8.5-14.6c-4.9-1.6-11.1-2.5-18.7-2.5h-34.4v34.9H198
-                   C204.9,237.3,210.4,236,214.8,233.3z"/>
-               </g>
-               </svg>
-              </a></div>
-                
-              <div><a href="https://www.kaggle.com/hassaanhd" class="social">
-                <svg fill="#ffffff" width="50px" height="50px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M 10.351562 4 C 10.117563 4 10 4.1165625 10 4.3515625 L 10 27.644531 C 10 27.878531 10.116563 27.996094 10.351562 27.996094 L 12.648438 27.996094 C 12.882437 27.996094 13.001953 27.879531 13.001953 27.644531 L 13.001953 22.808594 L 14.810547 21.085938 L 20.048828 27.75 C 20.190828 27.915 20.354922 28 20.544922 28 L 23.716797 28 C 23.882797 28 23.977 27.952422 24 27.857422 L 23.933594 27.498047 L 17.023438 18.910156 L 23.650391 12.498047 C 23.773391 12.370047 23.730438 12 23.398438 12 L 20.117188 12 C 19.951187 12 19.785141 12.085953 19.619141 12.251953 L 13 18.974609 L 13 4.3515625 C 13 4.1165625 12.883437 4 12.648438 4 L 10.351562 4 z"/></svg>
-            </a></div>
-            </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstap</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+  />
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+/>
+  <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+          <a href="#" class="navbar-brand"><img src="./assets/centrifuge.svg" alt="" srcset=""><span  style="margin-left: 10px;">Centrifuge</span></a>
+  
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#about-me" class="nav-link">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a href="#services" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skills" class="nav-link">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact-me" class="nav-link">Contact Me</a>
+              </li>
+            </ul>
           </div>
-      </section>
-      <section class="sub-section" id="about-me">
+        </div>
+      </nav>
+
+
+       <!--  -->
+    <section
+    class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+  >
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div>
+          <h1>Hassaan<span class="text-danger"> Ahmed</span></h1>
+          <p class="lead my-2">
+           Full Stack Developer/UI/UX Developer/Data Scientist
+          </p>
+          <button
+          style="margin-top: 22px;"
+            class="btn btn-danger btn-lg"
+            data-bs-toggle="modal"
+            data-bs-target="#enroll"
+          >
+          <a style="color: white; text-decoration: none;" href="./assets/hassaan_cv.pdf" download>Download CV</a>
+          </button>
+        </div>
+        <img 
+          class="img-fluid w-50 d-none d-sm-block"
+          src="./assets/programming-monitor-svgrepo-com.svg"
+          alt=""
+        />
+      </div>
+    </div>
+  </section>
+
+   <!-- Social Media -->
+   <section class="bg-danger text-light  p-5" id="about-me">
+    <div class="container">
+      <div class="d-md-flex justify-content-between align-items-center">
+        <h3 class="mb-3 mb-md-0">Let's Connect</h3>
+        <div class="d-flex gap-5">
+         <a href="https://github.com/Hassaan-AhmedHD" target="_blank"> <img src="./assets/github-142-svgrepo-com.svg" alt="" srcset="" class="icon-margin"></a>   
+         <a href="https://www.kaggle.com/hassaanhd" target="_blank"><img src="./assets/kaggle-svgrepo-com.svg" alt="" srcset="" class="icon-margin"></a>
+         <a href="https://www.behance.net/hassaanahmed12" target="_blank"><img src="./assets/behance-round-svgrepo-com.svg" alt="" srcset="" class="icon-margin"></a>
+         <a href="https://www.linkedin.com/in/hassaan-ahmed-dar-hd" target="_blank"><img src="./assets/linkedin-round-svgrepo-com.svg" alt="" srcset="" class="icon-margin"></a>
+         <a href="https://www.facebook.com/hd.hassaan" target="_blank"><img src="./assets/fb-messenger-svgrepo-com.svg" alt="" srcset="" class="icon-margin"></a>
+        
+        
+    </div>
+    </div>
+  </section>
+
+
+<!-- About Me -->
+<section class="sub-section  bg-dark text-light"  >
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-6">
           <div class="information">
-              <h2>About Me</h2>
-              <p>Hey there! I'm an Electrical Engineer with a huge
-                interest in software development. I'm currently on a
-                mission to learn Full Stack Development, UI/UX
-                Design, and Data Science. I've also got some
-                experience working with WordPress, which helps me
-                create cool and easy-to-use websites. I want to
-                combine my engineering knowledge with my new
-                skills to create awesome and innovative solutions in
-                the digital realm.
-                </p>
-              <div class="button"><a href="./src/assets/hassaan_cv.pdf" download>Download CV</a></div>
-          </div>
-         
-          <div class="headshot-container">
-              <img class="headshot" src="src/images/headshot.png" alt="Hassaan Ahmed headshot"/>
-          </div>
-      </section>
-
-
-
-      <!-- Projects -->
-      <section class="sub-section-alternative" id="projects">
-          <h2>Projects</h2>
-          <div class="project-container">
-              <div class="project-card">
-                  <img class="project-image" src="src/images/yaraak.PNG" alt="Project One Image"/>
-                  <h3>Services Website</h3>
-                  <p class="subtext">Experience the future of living with our innovative home automation solutions.</p>
-                  <hr/>
-                  <p class="subtext"><a id="yaraak" >View here</a></p>
-              </div>
-              <div class="project-card">
-                <img class="project-image" src="src/images/blog.PNG" alt="Project One Image"/>
-                <h3>Blog website</h3>
-                <p class="subtext">A creative blog platform for sharing your thoughts and ideas with the world.</p>
-                <hr/>
-                <p class="subtext"><a id="blog" >View here</a></p>
-              </div>
-              <div class="project-card">
-                <img class="project-image" src="src/images/hotel.PNG" alt="Project One Image"/>
-                <h3>Hotels website</h3>
-                <p class="subtext">A luxurious hotel offering unmatched comfort and hospitality for your next stay.</p>
-                <hr/>
-                <p class="subtext"><a id="store" >View here</a></p>
-              </div>
-              <div class="project-card">
-                <img class="project-image" src="src/images/store.PNG" alt="Project One Image"/>
-                <h3>E-commerce website</h3>
-                <p class="subtext"> An intuitive e-commerce platform to simplify your shopping experience and delivery.</p>
-                <hr/>
-                <p class="subtext"><a id="hotel" >View here</a></p>
-              </div>
-          </div>
-      </section>
-   
-      <!-- Projects end -->
-
-
-      
-      <!-- Skills -->
-    
-      <section class="skills">
-        <h2>My Skills</h2>
-        <div class="skill-row">
-          <div class="skill">
-            <div class="skill-name">Kaggle</div>
-            <div class="progress-bar">
-              <div class="progress" style="width: 25%; background-color: #1abc9c;">
-                <div class="progress-label">25%</div>
-              </div>
-             
-            </div>
-          </div>
-          <div class="skill">
-            <div class="skill-name">GitHub</div>
-            <div class="progress-bar">
-              <div class="progress" style="width: 40%; background-color: #3498db;">
-                <div class="progress-label">40%</div>
-              </div>
-            </div>
-          </div>
-          <div class="skill">
-            <div class="skill-name">Html</div>
-            <div class="progress-bar">
-              <div class="progress" style="width: 80%; background-color: #9b59b6;">
-                <div class="progress-label">80%</div>
-              </div>
-            </div>
+            <h2>About Me</h2>
+            <p>Hey there! I'm an Electrical Engineer with a huge interest in software development. I'm currently on a mission to learn Full Stack Development, UI/UX Design, and Data Science. I've also got some experience working with WordPress, which helps me create cool and easy-to-use websites. I want to combine my engineering knowledge with my new skills to create awesome and innovative solutions in the digital realm.</p>
+           
           </div>
         </div>
-        <div class="skill-row">
-          <div class="skill">
-            <div class="skill-name">Css</div>
-            <div class="progress-bar">
-              <div class="progress" style="width: 45%; background-color: #e74c3c;">
-                <div class="progress-label">45%</div>
-              </div>
-            </div>
-          </div>
-          <div class="skill">
-            <div class="skill-name">JavaScript</div>
-            <div class="progress-bar">
-              <div class="progress" style="width: 47%; background-color: #f1c40f;">
-                <div class="progress-label">47%</div>
-              </div>
-            </div>
-          </div>
-          <div class="skill">
-            <div class="skill-name">Wordpress</div>
-            <div class="progress-bar">
-              <div class="progress" style="width: 55%; background-color: #58cf58;">
-                <div class="progress-label">55%</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-     <section class="skills">
-        <div class="skill-row">
-          <div class="skill">
-            <div class="skill-name">Figma</div>
-            <div class="progress-bar">
-              <div class="progress" style="width: 65%; background-color: #1abc9c;">
-                <div class="progress-label">65%</div>
-              </div>
-             
-            </div>
-          </div>
-          <div class="skill">
-            <div class="skill-name">Statistics</div>
-            <div class="progress-bar">
-              <div class="progress" style="width: 35%; background-color: #3498db;">
-                <div class="progress-label">35%</div>
-              </div>
-            </div>
-          </div>
-          <div class="skill">
-            <div class="skill-name">Pyhton</div>
-            <div class="progress-bar">
-              <div class="progress" style="width: 40%; background-color: #9b59b6;">
-                <div class="progress-label">40%</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="skill-row">
-          <div class="skill">
-            <div class="skill-name">SpreadSheet</div>
-            <div class="progress-bar">
-              <div class="progress" style="width: 45%; background-color: #e74c3c;">
-                <div class="progress-label">50%</div>
-              </div>
-            </div>
-          </div>
-          <div class="skill">
-            <div class="skill-name">PowerBI</div>
-            <div class="progress-bar">
-              <div class="progress" style="width: 30%; background-color: #f1c40f;">
-                <div class="progress-label">30%</div>
-              </div>
-            </div>
-          </div>
-          <div class="skill">
-            <div class="skill-name">Sql</div>
-            <div class="progress-bar">
-              <div class="progress" style="width: 15%; background-color: #58cf58;">
-                <div class="progress-label">15%</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-
-      <!-- Contact Me -->
-
-      <footer id="contact-me">
-          <h2>Contact me</h2>
-          <p style="margin-top: -45px;">engineeer.h@gmail.com</p>
-          <p>+923488512063</p>
-      </footer>
-     <!-- modal -->
-      <div class="modal">
-        <div><button id="modal-btn">Return to Main Page</button></div>
-          <div class="images">  
-            <img class="pic" src="./src/images/yaraak.PNG" alt="" />
-            <img class ="pic" src="./src/images/yaraak2.PNG" alt="" />
-            <img class="pic" src="./src/images/yaraak3.PNG" alt="" />
-            <img class="pic" src="./src/images/yaraak4.PNG" alt="" /> 
+        <div class="col-md-6">
+          <div class="headshot-container d-flex justify-content-center">
+            <img class="headshot rounded-circle" src="./assets/headshot.png" alt="Hassaan Ahmed headshot" style="width: 100%; max-width: 180px; border: 2px solid rgb(211, 55, 55); " />
           </div>
         </div>
       </div>
+    </div>
+  </section>
 
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+<!-- Services -->
+<section class="p-5 m-5"id ="services">
+    <div class="container">
+        <h1>My<span class="text-danger"> Services</span></h1>
+      <div class="row text-center g-4">
+        <div class="col-md">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+               <img src="./assets/javascript-svgrepo-com.svg" alt="" srcset="">
+              </div>
+              <h3 class="card-title mb-3">Full Stack Development</h3>
+              <p class="card-text">
+                On an ongoing learning journey, I passionately explore full-stack development 
+                using JavaScript frameworks to create web, mobile, and desktop apps 
+              </p>
+              <a href="https://github.com/Hassaan-AhmedHD" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card bg-secondary text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <img src="./assets/wireframe-svgrepo-com.svg" alt="" srcset="">
+              </div>
+              <h3 class="card-title mb-3">UI/UX Development</h3>
+              <p class="card-text">
+                Alongside full-stack development, I am immersing myself in learning UI/UX principles to broaden my expertise.
+              </p>
+              <a href="https://www.behance.net/hassaanahmed12" class="btn btn-dark">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <img src="./assets/data-trends-svgrepo-com.svg" alt="" srcset="">
+              </div>
+              <h3 class="card-title mb-3">Data Science</h3>
+              <p class="card-text" id="skills">
+                Passionate about the convergence of UI/UX, full-stack development, and data science, 
+                I strive to master their interplay and create impactful experiences
+              </p>
+              <a href="https://www.kaggle.com/code/hassaanhd/temperature" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
       
 
-    <script src="src/app.js"></script>
-  </body>
+
+  <!-- Skills -->
+  <section >
+   
+  <div class="container">
+    <h1>My<span class="text-danger"> Skills</span></h1>
+    <div class="row" >
+      <div class="col-lg-4 col-md-6  mb-4">
+        HTML
+        <div class="progress">
+          <div class="progress-bar bg-info" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+            - 80%
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6  mb-4">
+        CSS
+        <div class="progress">
+          <div class="progress-bar custom-progress4" role="progressbar" style="width: 70%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+             - 50%
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6  mb-4">
+        JavaScript
+        <div class="progress">
+          <div class="progress-bar bg-warning" role="progressbar" style="width: 60%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+             55%
+          </div>
+        </div>
+    </div>
+    
+  </div>
+  </div>
+
+  <div class="container">
+    <div class="row" >
+      <div class="col-lg-4 col-md-6  mb-4">
+        Bootstrap
+        <div class="progress">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 35%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+            35%
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6  mb-4">
+        React
+        <div class="progress">
+          <div class="progress-bar  bg-secondary" role="progressbar" style="width: 10%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+              10%
+          </div>
+        </div>
+      </div>
+      <!-- bg-primary, bg-secondary, bg-success, bg-danger, bg-warning, bg-info, bg-light, and bg-dark -->
+      <div class="col-lg-4 col-md-6  mb-4">
+        Node.Js
+        <div class="progress ">
+          <div class="progress-bar bg-danger" role="progressbar" style="width: 12%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+             12%
+          </div>
+        </div>
+    </div>
+    
+  </div>
+  </div>
+
+  <div class="container">
+    <div class="row" >
+      <div class="col-lg-4 col-md-6  mb-4">
+        Wordpress
+        <div class="progress">
+          <div class="progress-bar custom-progress" role="progressbar" style="width: 60%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+            60%
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6  mb-4">
+        Figma
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 46%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+              46%
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6  mb-4">
+        Canva
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+             75%
+          </div>
+        </div>
+    </div>
+    
+  </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row" >
+      <div class="col-lg-4 col-md-6  mb-4">
+        Python
+        <div class="progress">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 60%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+            60%
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6  mb-4">
+        Excel
+        <div class="progress">
+          <div class="progress-bar custom-progress" role="progressbar" style="width: 57%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+              57%
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6  mb-4">
+        PowerBI
+        <div class="progress">
+          <div class="progress-bar custom-progress4" role="progressbar" style="width: 38%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+             38%
+          </div>
+        </div>
+    </div>
+    
+  </div>
+  </div>
+
+  <div class="container">
+    <div class="row" >
+      <div class="col-lg-4 col-md-6  mb-4">
+        Sql
+        <div class="progress">
+          <div class="progress-bar custom-progress3" role="progressbar" style="width: 20%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+            20%
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6  mb-4">
+        Machine Leraning
+        <div class="progress">
+          <div class="progress-bar custom-progress2" role="progressbar" style="width: 32%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+              32%
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6  mb-4">
+        Pandas/Matplotlib/SciKitLearn/Numpy
+        <div class="progress">
+          <div class="progress-bar custom-progress1" role="progressbar" style="width:32%;"  aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+             32%
+          </div>
+        </div>
+    </div>
+    
+  </div>
+  </div>
+
+</section>
+ 
+
+  
+  <!--Projects  -->
+  <div class="container mt-5" id="projects">
+    <h1>My<span class="text-danger">Projects</span></h1>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <img  src="./assets/Desktop-Homepage.png" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">MagazineBlog</h5>
+            <p class="card-text">Minimalistic blog UI/UX</p>
+            <a href="https://www.behance.net/hassaanahmed12" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <img src="./assets/datascience.PNG" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Global Warming Prediction</h5>
+            <p class="card-text">Machine Learning Model </p>
+            <a href="https://www.kaggle.com/code/hassaanhd/temperature" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <img src="./assets/Desktop - 1.png" class="card-img-top" alt="Project 3">
+          <div class="card-body">
+            <h5 class="card-title">Yaraak Home Automation</h5>
+            <p class="card-text">Iot Based Android App</p>
+            <a href="https://github.com/Hassaan-AhmedHD" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact & Map -->
+  <section class="p-5" id="contact-me">
+   
+    <div class="container ">
+        <h1 class="p-2">Contact<span class="text-danger">Me</span></h1>
+      <div class="row g-4">
+        <div class="col-md">
+         
+          <ul class="list-group list-group-flush lead">
+            <li class="list-group-item">
+              <span class="fw-bold">Location:</span> Airport Road Sonikot Gilgit
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold">Phone:</span> +923488512063
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold">Email</span> engineeer.h@gmail.com
+            </li>
+           
+          </ul>
+        </div>
+        <div class="col-md">
+          <div id="map"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="p-5 bg-dark text-white text-center position-relative">
+    <div class="container">
+      <p class="lead">Copyright &copy; 2023 Centrifuge.Org</p>
+
+      <a href="#" class="position-absolute bottom-0 end-0 p-5">
+        <i class="bi bi-arrow-up-circle h1"></i>
+      </a>
+    </div>
+  </footer>
+
+
+ 
+ 
+
+  
+  
+  
+ 
+
+      <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+</body>
 </html>
