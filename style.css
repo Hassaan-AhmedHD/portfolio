@@ -1,5 +1,5 @@
 body{
-  overflow-x: hidden;
+ 
 }
 
 
@@ -42,8 +42,4 @@ body{
   }
   
  
-  @media (max-width: 575.98px) {
-    .p-0 {
-      padding: 0 !important;
-    }
-  }
+  
